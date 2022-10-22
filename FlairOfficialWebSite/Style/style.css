@@ -1,0 +1,210 @@
+.bg-custom1{
+    background-color: #d8d8d8 !important;
+}
+.bg-custom2{
+    background-color: #222222 !important;
+}
+.bg-custom3{
+    background-color: #353535 !important;
+}
+.text-custom1{
+    color: #a0a0a0 !important;
+}
+.text-custom2{
+    color: #ffa013 !important;
+}
+.nav-link, .navbar-brand span{
+    /*color: #7d959e !important;*/
+    color: #ffa013 !important;
+}
+.nav-link:hover{
+    /*color: #7e7f80 !important;*/
+    /*background-color: #f0f0f0 !important;*/
+    background-color: #363636 !important;
+    color: #ffffff !important;
+}
+.element_boxes>div>span{
+    background-color: rgba(42, 171, 218, 0) !important;
+    color: #9caeb4 !important;
+    cursor: default;
+}
+.element_boxes>div>span:hover{
+    background-color: rgba(42, 171, 218, 0) !important;
+    color: #9caeb4 !important;
+    cursor: default;
+}
+.card{
+    border: 0.2vw solid #6e6e6e;
+    background-color: #2e2e2e !important;
+}
+body, html{
+    overflow: hidden;
+}
+#loader{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: 9999999;
+}
+#loader_logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10vh;
+    margin-top: -5vh;
+    margin-left: -5vh;
+}
+#main{
+    min-height: 100vh;
+    position: relative;
+}
+.element_boxes{
+    border: 0.15vw dashed #7d959e;
+    height: 100%;
+}
+.slider_buttons{
+    display: block; 
+    background-color: #dfe1e2;
+}
+.slider_buttons:hover{
+    /*background-color: #bdbfc0;*/
+    background-color: #474747;
+    cursor: pointer;
+}
+.slider_buttons_active{
+    /*background-color: #7d959e;*/
+    background-color: #ffa013;
+}
+#slider_buttons_holder > div > div > span{
+    color: #b8bcbe;
+}
+.button_text_:hover{
+    color: #a8acad !important;
+    cursor: pointer;
+}
+.social_networks_:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.responsiveness_icons_:hover{
+    border: 0.2vw solid #a8acad;
+    padding: 0.6vw;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.col-custom-1{
+    flex: 0 0 calc(var(--swunit1_00)*0.5);
+    max-width: calc(var(--swunit1_00)*0.5);
+}
+.col-custom-2{
+    flex: 0 0 calc(100% - var(--swunit1_00)*0.5);
+    max-width: calc(100% - var(--swunit1_00)*0.5);
+}
+.size-custom-3{
+    width: calc(100% - var(--swunit1_00)*0.5);
+}
+#left_menu{
+    border-right: 2px solid #c6cdcf;
+}
+#fixed_menu_container{
+    position: fixed; 
+    top: -20vh; 
+    right: 0; 
+    z-index: 999999;
+}
+#fixed_menu{
+    opacity: 0.9;
+    border-color: #b8bcbe;
+    border: 2px solid gray;
+    width: 88%;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 1350px){
+    .navbar-collapse{
+        display: flex !important;
+        flex-basis: auto;
+    }
+    .navbar-nav{
+        flex-direction: row;
+        margin-top: 0;
+    }
+    .navbar-toggler{
+        display: none !important;
+    }
+    #fixed_menu{
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+}
+@media (max-width: 1450px){
+    #fixed_menu{
+        width: 94%;
+    }
+}
+@media (max-width: 1350px){
+    .menu_nav{
+        margin-top: 2vh !important;
+        margin-bottom: 2vh !important;
+    }
+    .navbar{
+        margin-top: 1vh !important;
+    }/*
+    #slider_buttons_holder{
+        margin-top: 8vh !important;
+    }*/
+    #fixed_menu{
+        border-radius: 2vw !important;
+    }
+}
+@media (max-width: 500px){
+    .navbar{
+        margin-top: 2vh !important;
+    }
+    #slider_buttons_holder{
+        margin-top: 15vh !important;
+    }
+    .navbar-toggler{
+        padding-left: 0 !important;
+    }
+}
+@media (min-width: 500px) and (max-width: 900px){
+    .navbar{
+        margin-top: 2vh !important;
+    }
+}
+@media (max-width: 500px) and (max-height: 500px){
+    /*#slider_buttons_holder{
+        margin-top: 12vh !important;
+    }*/
+}
+@media (max-width: 380px){
+    #main{
+        padding-top: 2vh !important;
+        padding-left: 1vw !important;
+        padding-right: 1vw !important;
+    }
+    .navbar{
+        margin-top: 1vh !important;
+    }
+}/*
+@media (max-width: 768px) and (min-height: 580){
+    #slider_{
+        height: 42vh !important;
+    }
+}
+@media (max-width: 768px) and (max-height: 580){
+    #slider_{
+        height: 35vh !important;
+    }
+}*/
